@@ -1,5 +1,4 @@
 const path = require('path');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // Add the clean-webpack-plugin
 
 module.exports = {
   entry: './js/dashboard_main.js',  // Single entry point
@@ -55,7 +54,4 @@ module.exports = {
   optimization: {
     splitChunks: false,
   },
-//   plugins: [
-//     new CleanWebpackPlugin(), // Clean the public folder before build
-//   ],
 };
