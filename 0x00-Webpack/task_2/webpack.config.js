@@ -49,6 +49,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i, // Match font files
+        use: [
+          {
+            loader: 'file-loader', // Use file-loader for fonts
+            options: {
+              name: '[name].[hash].[ext]', // File naming pattern
+              outputPath: 'fonts/', // Output folder for fonts
+            },
+          },
+        ],
+      }
     ],
   },
   optimization: {
