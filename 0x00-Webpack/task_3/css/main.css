@@ -1,0 +1,15 @@
+/* Make the counter bold and position it to the right of the button */
+#count {
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  
+  /* Logo styling */
+  #logo {
+    background: url('../assets/holberton-logo.jpg');
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+  }
+  
